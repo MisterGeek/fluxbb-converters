@@ -58,4 +58,4 @@ while($ob = $fdb->fetch_assoc($result))
 	insertdata('forums', $todb, __FILE__, __LINE__);
 }
 
-convredirect('forum_id', 'forums', $last_id);
+convredirect('tg_id', 'topicgroups', $last_id);
